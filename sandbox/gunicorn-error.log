@@ -1,0 +1,14 @@
+[2017-06-26 09:40:19 +0000] [22248] [INFO] Starting gunicorn 19.7.1
+[2017-06-26 09:40:19 +0000] [22248] [INFO] Listening at: unix:/home/ec2-user/django-oscar/sandbox.sock (22248)
+[2017-06-26 09:40:19 +0000] [22248] [INFO] Using worker: sync
+[2017-06-26 09:40:19 +0000] [22253] [INFO] Booting worker with pid: 22253
+[2017-06-26 09:40:19 +0000] [22254] [INFO] Booting worker with pid: 22254
+[2017-06-26 09:40:19 +0000] [22257] [INFO] Booting worker with pid: 22257
+[2017-06-26 09:40:28 +0000] [22248] [INFO] Handling signal: int
+[2017-06-26 09:40:28 +0000] [22248] [INFO] Shutting down: Master
+[2017-06-26 09:41:54 +0000] [22339] [INFO] Starting gunicorn 19.7.1
+[2017-06-26 09:41:54 +0000] [22339] [INFO] Listening at: unix:/home/ec2-user/django-oscar/sandbox.sock (22339)
+[2017-06-26 09:41:54 +0000] [22339] [INFO] Using worker: sync
+[2017-06-26 09:41:54 +0000] [22345] [INFO] Booting worker with pid: 22345
+[2017-06-26 09:41:54 +0000] [22346] [INFO] Booting worker with pid: 22346
+[2017-06-26 09:41:55 +0000] [22348] [INFO] Booting worker with pid: 22348
