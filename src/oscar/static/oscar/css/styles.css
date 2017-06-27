@@ -9347,7 +9347,7 @@ input[type="number"][id*="quantity"] {
 #product_gallery .carousel-inner > .item > img {
   display: inline-block;
   vertical-align: middle;
-  max-height: 400px;
+  max-height: 4px;
 }
 #product_gallery .carousel-control {
   background-image: none;
