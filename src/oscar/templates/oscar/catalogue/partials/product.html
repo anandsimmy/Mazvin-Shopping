@@ -4,6 +4,12 @@
 {% load display_tags %}
 {% load staticfiles %}
 
+{% block styles %}
+
+<link rel="stylesheet" type="text/css" href="{% static "oscar/cssjquery.spzoom.css" %}" />
+
+{% endblock %}
+
 {% block product %}
     <article class="product_pod">
         {% block product_image %}
@@ -41,4 +47,12 @@
             </div>
         {% endblock %}
     </article>
+
+{% endblock %}
+
+{% block scripts %}
+
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script src="{% static "oscar/js/jquery.spzoom.js" %}" type="text/javascript" charset="utf-8"></script>
+
 {% endblock %}
