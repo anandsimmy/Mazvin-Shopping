@@ -9,18 +9,30 @@
 <link rel="stylesheet" type="text/css" href="{% static "oscar/cssjquery.spzoom.css" %}" />
 
 {% endblock %}
-
+$('[data-spzoom]').spzoom({
+  width: 250,             
+  height: 250,            
+  position: 'right',      
+  margin: 20,            
+  showTitle: true,        
+  titlePosition: 'bottom' 
+  });
 {% block product %}
     <article class="product_pod">
         {% block product_image %}
             <div class="image_container">
                 {% with image=product.primary_image %}
                     {% thumbnail image.original "x155" upscale=False as thumb %}
+                    <a href="{{ large.jpg }}" title="Zoom" data-spzoom>
                     <a href="{{ product.get_absolute_url }}"><img src="{{ thumb.url }}" alt="{{ product.get_title }}" class="thumbnail"></a>
+                    $('[data-spzoom]').spzoom();
+
                     {% endthumbnail %}
+ 
                 {% endwith %}
             </div>
         {% endblock %}
+        
 
         {% block product_review %}
             {% iffeature "reviews" %}
